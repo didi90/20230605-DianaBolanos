@@ -1,0 +1,48 @@
+ 131  mkdir 20230605-DianaBolanos
+  132  cd 20230605-DianaBolanos/
+  133  git init
+  134  touch README.md
+  135  git branch -m main
+  136  git add .
+  137  git add origin main https://github.com/didi90/20230605-DianaBolanos.git
+  138  git add origin https://github.com/didi90/20230605-DianaBolanos.git
+  139  git remote add origin https://github.com/didi90/20230605-DianaBolanos.git
+  140  touch comandos.txt main.js index.html
+  141  git add .
+  142  git status
+  143  git commit -m "01 de Diana Bolanos"
+  144  git push origin main
+  145  git branch feature1
+  146  git checkout feature1
+  147  mkdir terminal hardware
+  148  cd terminal/
+  149  touch resumen.txt
+  150  cd ..
+  151  cd hardware/
+  152  touch resumen.txt
+  153  git push origin feature1
+  154  git branch feature2
+  155  git checkout feature2
+  156  git branch --delete feature2
+  157  git checkout feature1
+  158  git branch --delete feature2
+  159  cd ..
+  160  ls
+  161  git add .
+  162  git commit -m "02 de Diana Bolanos"
+  163  git push origin feature1
+  164  git branch feature2
+  165  git checkout feature2
+  166  cd terminal/
+  167  nano resumen.txt
+  168  cd ..
+  169  cd hardware/
+  170  nano resumen.txt
+  171  cd..
+  172  cd ..
+  173  git add .
+  174  git commit -m "commit 03 de Diana Bolanos"
+  175  git push origin feature2
+  176  git checkout main
+  177  mv comandos.txt comandosUtilizados.txt
+  178  history
