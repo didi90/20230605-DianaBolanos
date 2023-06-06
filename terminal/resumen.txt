@@ -1,0 +1,7 @@
+Lista de 5 comandos aprendidos en clase:
+mkdir - crear carpetas
+touch - crear archivos
+cd - permite mover entre carpetas
+git add . agregar todos los archivos del working directory al staging area
+git push origin main enviar la información de la rama main a git hub
+

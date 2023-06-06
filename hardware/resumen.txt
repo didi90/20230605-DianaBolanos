@@ -1,0 +1,4 @@
+Lista de 3 partes internas de la computadora:
+- Procesador
+- Memoria
+- Fuente
